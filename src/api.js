@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://imovies-backend-7qt1.onrender.com/api';
 
 export async function signupUser(userData) {
 const response = await fetch(`${API_BASE_URL}/auth/signup`, {
